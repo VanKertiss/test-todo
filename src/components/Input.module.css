@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    max-width: 400px;
+    width: 85%;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.textInput{
+    max-width: 300px;
+    width: 80%;
+    height: 30px;
+    padding: 5px 30px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+}
+
+.textInput:active, .textInput:focus {
+    outline: none;
+}
+
+.textButton{
+    max-width: 100px;
+    width: 20%;
+    border-radius: 0 10px 10px 0;
+    border: none;
+}
+
+
