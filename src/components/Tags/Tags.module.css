@@ -9,4 +9,12 @@
 
 .tagActive {
     color: red;
+    text-shadow: 1px 1px 2px gray, 0 0 10px black, 0 0 2px black;
+}
+
+.itemContainer{
+    border: gray 2px solid;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: burlywood;
 }

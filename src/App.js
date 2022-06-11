@@ -11,7 +11,10 @@ const App = () => {
   return (
     <Provider store={ store }>
     <div className={HS.container}>
-      <h1 >Todo list with tags</h1>
+      <header>
+        <h1 >Todo list with tags</h1>
+        <div className={HS.logoImg} alt='logo'></div>
+      </header>      
       <Input />
       <Tags />
       <List />

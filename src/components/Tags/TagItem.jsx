@@ -5,7 +5,7 @@ const TagItem = (props) => {
     const tag = props.active ? <div className={HS.tagActive} >{props.data}</div> : <div >{props.data}</div>;
 
     return (
-        <>{tag}</>
+        <div className={HS.itemContainer} >{tag}</div>
     )
 }
 
