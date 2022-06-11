@@ -1,0 +1,12 @@
+.container{
+    max-width: 600px;
+    width: 90%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tagActive {
+    color: red;
+}

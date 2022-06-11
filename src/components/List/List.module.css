@@ -1,0 +1,37 @@
+.container{
+    max-width: 600px;
+    width: 90%;
+}
+
+.listItemContainer{
+    max-width: 900px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+.editButton{
+    margin-left: 50px;
+}
+
+.deleteButton{
+    margin-left: 10px;
+    border-radius: 0 10px 10px 0;
+}
+
+.editButton, .deleteButton {
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.inputListItem{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+}
